@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHrm test suits]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Admin login(failed)">
+    <parameter name="uid" value="Admin"/>
+    <parameter name="fname" value="Hope"/>
+    <parameter name="lname" value="Mikaelson"/>
+    <parameter name="mname" value="Andrea"/>
+    <parameter name="pwd" value="Qedge123!@#"/>
+    <classes>
+      <class name="orangehrm.testscases.AdminLogin">
+        <methods>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- orangehrm.testscases.AdminLogin -->
+      <class name="orangehrm.testscases.Add_Employee">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="TestAddEmployee" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- orangehrm.testscases.Add_Employee -->
+    </classes>
+  </test> <!-- Admin login(failed) -->
+</suite> <!-- Failed suite [OrangeHrm test suits] -->

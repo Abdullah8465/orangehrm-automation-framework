@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-18T20:48:51 IST" name="OrangeHrm test suits" finished-at="2025-06-18T20:49:04 IST" duration-ms="13302">
+    <groups>
+    </groups>
+    <test started-at="2025-06-18T20:48:51 IST" name="Admin login" finished-at="2025-06-18T20:49:04 IST" duration-ms="13302">
+      <class name="orangehrm.testscases.Add_Employee">
+        <test-method signature="TestAddEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:orangehrm.testscases.Add_Employee@5aebe890]" started-at="2025-06-18T20:48:58 IST" name="TestAddEmployee" finished-at="2025-06-18T20:49:03 IST" duration-ms="5166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hope]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Andrea]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mikaelson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddEmployee -->
+      </class> <!-- orangehrm.testscases.Add_Employee -->
+      <class name="orangehrm.testscases.AdminLogin">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:orangehrm.testscases.AdminLogin@4e50c791]" started-at="2025-06-18T20:48:51 IST" name="launchApp" finished-at="2025-06-18T20:48:55 IST" duration-ms="3991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkAdminLogin(java.lang.String,java.lang.String)[pri:0, instance:orangehrm.testscases.AdminLogin@4e50c791]" started-at="2025-06-18T20:48:55 IST" name="checkAdminLogin" finished-at="2025-06-18T20:48:58 IST" duration-ms="2775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+        <test-method is-config="true" signature="logoutOnce()[pri:0, instance:orangehrm.testscases.AdminLogin@4e50c791]" started-at="2025-06-18T20:49:03 IST" name="logoutOnce" finished-at="2025-06-18T20:49:04 IST" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOnce -->
+      </class> <!-- orangehrm.testscases.AdminLogin -->
+    </test> <!-- Admin login -->
+  </suite> <!-- OrangeHrm test suits -->
+</testng-results>
