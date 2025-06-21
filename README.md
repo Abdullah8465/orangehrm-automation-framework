@@ -47,6 +47,5 @@ testing.xml # TestNG suite file
 - Maven build and dependency management
 - Git version control
 - 
-## License
-This project is for educational and demonstration purposes only.
+
 
