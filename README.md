@@ -29,16 +29,10 @@ pom.xml # Maven configuration
 testing.xml # TestNG suite file
 
 ## Getting Started
-1. **Clone the repository**
-git clone https://github.com/yourusername/orangehrm-automation-pom.git
-text
-2. **Install dependencies via Maven**
-mvn clean install
+1. **Clone the repository** git clone
+2. **Install dependencies via Maven** mvn clean install
 3. **Update the ChromeDriver path** in `AppUtils.java` if needed.
-4. **Run tests using TestNG XML**
-- From IDE: Right-click `testing.xml` → Run as TestNG Suite
-- From command line:
-  mvn test -DsuiteXmlFile=testing.xml
+4. **Run tests using TestNG XML** - From IDE: Right-click `testing.xml` → Run as TestNG Suite
 
 ## Why Page Object Model (POM)?
 - **Maintainability:** UI changes require updates only in page classes, not in every test.
