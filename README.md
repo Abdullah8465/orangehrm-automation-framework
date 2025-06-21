@@ -38,7 +38,7 @@ testing.xml # TestNG suite file
 - **Maintainability:** UI changes require updates only in page classes, not in every test.
 - **Reusability:** Centralizes common actions and locators.
 - **Scalability:** Easily add new features or test cases without rewriting existing logic.
-- 
+  
 ## Skills Demonstrated
 - Selenium WebDriver automation
 - TestNG test organization and reporting
@@ -46,6 +46,6 @@ testing.xml # TestNG suite file
 - POM design pattern implementation
 - Maven build and dependency management
 - Git version control
-- 
+  
 
 
